@@ -1,0 +1,23 @@
+class product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+        
+    def get_info(self):
+        print(f"Price of {self.name} is Rs {self.price}")
+    
+    def calc_discount(self, discount):
+        discounted_price = self.price - (self.price * discount / 100)
+        print(f"Discounted price of {self.name} = Rs {discounted_price}")
+
+# objects
+p1 = product("phone", 10000)
+
+# before discount
+p1.get_info()
+
+# apply discount
+p1.calc_discount(10)
+
+# after discount (original price unchanged)
+p1.get_info()
