@@ -1,4 +1,4 @@
-
+  
 #inherit code ex in teacher strt or end time 
 
 class employee:
