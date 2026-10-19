@@ -1,5 +1,5 @@
   
-#inherit code ex in teacher strt or end time 
+#inherit code ex in teacher strt or end time   
 
 class employee:
     start_time = "10am"
