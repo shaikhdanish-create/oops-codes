@@ -7,7 +7,7 @@ class employee:
 
 class teacher(employee):
     def __init__(self, subject):
-        self.subject = subject
+        self.subject = subject  
         
 t1 = teacher("math")
 
